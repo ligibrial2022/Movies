@@ -1,15 +1,28 @@
 import org.junit.Test;
 
+import metods.Metods;
 import model.CreateSessionLogin;
 
 public class TestCases {
+/*
+    @Test
+    public void generarToken(){
+        Metods metods = new Metods();
+        metods.anadirPelicula();
+
+
+
+    }
+*/
+/*
 
     @Test
     public void generarToken(){
         Metods metods = new Metods();
         metods.authenticationTest();
-        CreateSessionLogin getToken = new CreateSessionLogin();
-        System.out.println(getToken.getRequestToken());
+        metods.createSessionWithLogin();
+
+
     }
 
     @Test
@@ -31,6 +44,11 @@ public class TestCases {
         metods.createList();
 
     }
+    @Test
+    public  void añadirPelicula(){
+        Metods metods = new Metods();
+        metods.anadirPelicula();
+    }
 
     @Test
     public void obtenerDetailsList(){
@@ -38,6 +56,6 @@ public class TestCases {
         metods.obtenerDetailsList();
     }
 
-
+*/
 
 }

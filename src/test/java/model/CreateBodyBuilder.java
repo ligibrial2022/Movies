@@ -1,6 +1,7 @@
 package model;
 
 public class CreateBodyBuilder {
+
     private  CreateSessionLogin createBodyRequest;
 
     private CreateBodyBuilder(){
@@ -16,11 +17,11 @@ public class CreateBodyBuilder {
         return this;
     }
     public CreateBodyBuilder username(String username){
-        this.createBodyRequest.setPassword(username);
+        this.createBodyRequest.setUsername(username);
         return this;
     }
     public CreateBodyBuilder requestToken(String requestToken){
-        this.createBodyRequest.setPassword(requestToken);
+        this.createBodyRequest.setRequestToken(requestToken);
         return this;
     }
 

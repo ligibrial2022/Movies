@@ -12,7 +12,6 @@ public class CreateSessionLogin {
     public String getPassword() {
         return password;
     }
-
     public void setPassword(final String password) {
         this.password = password;
     }
@@ -25,14 +24,12 @@ public class CreateSessionLogin {
         this.requestToken = requestToken;
     }
 
-    public String getUsername() {
+    public String getUsername(){
         return username;
     }
-
     public void setUsername(final String username) {
         this.username = username;
     }
-
     @Override
     public String toString() {
         return  "{\"username\": \"" +username + "\",\"password\": \"" + password + "\",\"request_token\":\"" + requestToken+ "\"}";
